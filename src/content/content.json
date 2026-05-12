@@ -1,0 +1,131 @@
+{
+  "config": {
+    "languages": ["en", "es"],
+    "defaultLanguage": "es",
+    "theme": "industrial-brutalist",
+    "privacy": {
+      "footer_statement": {
+        "es": "Privacy by Design: No cookies, no tracking, just science.",
+        "en": "Privacy by Design: No cookies, no tracking, just science."
+      }
+    },
+    "audio": {
+      "default_muted": true
+    }
+  },
+  "hero": {
+    "title": {
+      "es": "Futura Ingeniera de Materiales",
+      "en": "Future Materials Engineer"
+    },
+    "subline": {
+      "es": "Investigadora Industrial de UX",
+      "en": "Industrial UX Researcher"
+    },
+    "uvp_hammer": {
+      "es": "Reduzco mermas en procesos de soldadura transformando la complejidad técnica en protocolos humanos.",
+      "en": "Reducing weld waste by transforming technical complexity into human-centered protocols."
+    }
+  },
+  "caseStudy": {
+    "title": {
+      "es": "El Puente de Integridad Estructural",
+      "en": "The Structural Integrity Bridge"
+    },
+    "context": {
+      "es": "Soldadura de estanqueidad estructural en bastidores industriales.",
+      "en": "Structural-seal welding on industrial frames."
+    },
+    "image_ref": "industrial-setup-raw.jpg",
+    "hotspots": [
+      {
+        "id": "technical",
+        "type": "metallurgical",
+        "label": { "es": "Punto Técnico", "en": "Technical Point" },
+        "problem": {
+          "es": "Formación de cricche a freddo (Cold Cracking) por no respetar los tiempos de enfriamiento.",
+          "en": "Cold cracking caused by not respecting cooling times."
+        },
+        "solution": {
+          "es": "Definición científica del diagrama TTT (Time-Temperature-Transformation) específico para la aleación utilizada.",
+          "en": "Define a alloy-specific TTT (Time-Temperature-Transformation) diagram."
+        }
+      },
+      {
+        "id": "process",
+        "type": "workflow",
+        "label": { "es": "Punto de Proceso", "en": "Process Point" },
+        "problem": {
+          "es": "El control de calidad detecta el defecto solo con la pieza terminada, descartando todo el bastidor.",
+          "en": "Quality control detects the defect only at the end, scrapping the entire frame."
+        },
+        "solution": {
+          "es": "Inserción de un checkpoint visual obligatorio post-soldadura antes de la pintura.",
+          "en": "Add a mandatory visual checkpoint after welding and before painting."
+        }
+      },
+      {
+        "id": "human",
+        "type": "ux",
+        "label": { "es": "Punto Humano", "en": "Human Point" },
+        "problem": {
+          "es": "Pau saltaba el prerrecalentamiento: el manual no explicaba que, sin esa fase, el hidrógeno atrapado fragilizaba la junta.",
+          "en": "Pau skipped preheating: the manual didn’t explain that trapped hydrogen would embrittle the joint without it."
+        },
+        "solution": {
+          "es": "Rediseño de la estación con una “Visual Alert” que conecta el prerrecalentamiento con la seguridad de la pieza: el “por qué” científico es inmediato y visual.",
+          "en": "Redesign the station with a “Visual Alert” linking preheating to part safety, making the scientific “why” immediate and visual."
+        }
+      }
+    ]
+  },
+  "technicalVault": {
+    "access_code": "STAINLESS",
+    "label": {
+      "es": "Evidencia Científica: Análisis de Grano y Microdureza.",
+      "en": "Scientific Evidence: Grain Analysis and Microhardness."
+    },
+    "data_sets": [
+      {
+        "title": "Micrografía — Martensita frágil",
+        "file_type": "micrograph",
+        "asset_ref": "vault-micrograph-placeholder.jpg",
+        "description": {
+          "es": "Micrografía que muestra una estructura martensítica frágil en el punto de rotura.",
+          "en": "Micrograph showing a brittle martensitic structure at the fracture point."
+        }
+      },
+      {
+        "title": "Dureza Vickers (HV) — HAZ",
+        "file_type": "graph",
+        "asset_ref": "vault-vickers-placeholder.jpg",
+        "description": {
+          "es": "Perfil de dureza Vickers (HV) a través de la zona afectada térmicamente (HAZ) de la soldadura.",
+          "en": "Vickers hardness (HV) profile across the weld heat-affected zone (HAZ)."
+        }
+      }
+    ]
+  },
+  "downloads": {
+    "portfolio_pdf": {
+      "text": {
+        "es": "Descargar Portfolio de Proyectos (PDF)",
+        "en": "Download Project Portfolio (PDF)"
+      },
+      "file_ref": "/files/portfolio.pdf"
+    }
+  },
+  "cta_widget": {
+    "text": {
+      "es": "¿Problemas de calidad? Resolvámoslo en LinkedIn.",
+      "en": "Quality issues? Let's solve them on LinkedIn."
+    },
+    "link": "https://linkedin.com/in/giulia-profile"
+  },
+  "ticker": {
+    "text": {
+      "es": "CERO AMBIGÜEDAD • MÁXIMA EFICIENCIA",
+      "en": "ZERO AMBIGUITY • MAXIMUM EFFICIENCY"
+    }
+  }
+}

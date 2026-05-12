@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  /* Palette: Acciaio, Nero, Bianco Sporco, Arancione Sicurezza */
+  --mb-steel: #71717a;
+  --mb-black: #000000;
+  --mb-offwhite: #f4f4f5;
+  --mb-safety: #f97316;
+
+  --background: var(--mb-offwhite);
+  --foreground: var(--mb-black);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Brutalist utilities (hard shadow, no blur) */
+.shadow-hard {
+  box-shadow: 6px 6px 0 var(--mb-black);
+}
